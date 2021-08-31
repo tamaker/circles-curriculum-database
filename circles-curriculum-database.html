@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" >
+
+    <style>
+        html, body { width: 100%; padding: 0px; margin: 0px; }
+        .innerItem { padding: 5px; line-height: 1.2em; border: 1px solid #ccc; width: 31%; border-radius: .4em;  float: left; margin: 10px; min-height: 180px; }
+        .scwilBoldLabels { font-weight: bold;  letter-spacing: -.03em; }
+        .circle_focusgoals { padding: 10px !important; }
+        .circle_name { font-weight: bold; letter-spacing: -.04em; line-height:.9em !important; }
+        .circleHideText { display: none; }
+        .innerItem table { border: 0px; }
+        .innerItem table tbody tr td { margin: 0px; padding: 0px; border: 0px; padding: 2px; padding-bottom: 0px; padding-top: 0px; }
+        td, th {
+            padding: 8px;
+            text-align: left;
+            border-width: 0 0px 0px 0;
+        }
+    </style>
+  </head>
+  <body>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="//code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="//stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    
+    <div style="border: 0px solid black; ">
+        <div style="width: 20%; display: inline-block; text-align: center;"><input type="text" placeholder="Enter search string" class="scwil-text-search" style="width: 100%; margin: 0 auto;"></div> <b>- Or -</b>
+        <div style="width: 30%; display: inline-block;"><select class="scwil_gapcategories"><option value="This is a test">Select a category</option></select></div>
+    </div>
+    <div class="scwil_outer_block"></div>
+
+
+
+
+    <script>
+        var fullArr = [];
+        $(document).ready(function(){
+            
+            //fetch('./data/circles_of_women_test.json')
+            //fetch('https://cdn.jsdelivr.net/gh/tamaker/scwil-gap-database@latest/September_GAP_Sheet1.json')
+            fetch('./data/circles-curriculum-database.json')
+                .then(response => response.json())
+                //.then(data => console.log(data))
+                .then(data => doLoop(data))
+            var categoriesArr = [];
+
+            function doLoop(data){
+                console.log(data);
+
+              
+
+                $.each(data, function(i, val){
+                    $.each(val['Category'].split(';'), function(i_cat, val_cat){
+                        if (!categoriesArr.includes(val_cat.trim())){
+                                categoriesArr.push(val_cat.trim());
+                        }
+                    })
+
+
+
+
+                        var html_element = '<div class="innerItem">'
+                                    html_element += '<table data-itemnum="' + i + '">'
+                                        html_element += '<tr><td class="circle_name"><h3 style="line-height:.9em !important; margin-bottom: 8px;"><a href="' + val['Conversation Starter Link'] + '">' + val['Module'] + '</a></h3></td></tr>'
+                                        //html_element += '<tr><td class="circle_city"><span class="scwilBoldLabels">City:</span> ' + val['city'] + ' &nbsp; &nbsp; <span class="scwilBoldLabels">Region:</span> ' + val['region'] + '</td></tr>'
+                                        html_element += '<tr><td class="item_category"><span class="scwilBoldLabels">Category:</span> ' + val['Category'] + '</td></tr>'
+                                        if (val['Conversation Starter'].length){
+                                            html_element += '<tr><td class="item_conversationstarter"><span class="scwilBoldLabels">Coversation Starter:</span> <a href="' + val['Conversation Starter Link'] + '">' + val['Conversation Starter'] + '</a></td></tr>'
+                                        }
+                                        html_element += '<tr><td class="item_discussionguide"><span class="scwilBoldLabels">Discussion Guide:</span> <a href="' + val['Discussion Guide Links'] + '">' + val['Discussion Guide'] + '</a></td></tr>'
+                                        if (val['Slides'].length){
+                                            html_element += '<tr><td class="item_slides"><a href="' + val['Slide Links'] + '">' + val['Slides'] + '</a></td></tr>'
+                                        }
+                                        if (val['Associated Curriculum'].length){
+                                            html_element += '<tr><td class="item_slides"><span class="scwilBoldLabels">Associated Curriculum:</span> <a href="' + val['Curriculum Link'] + '">' + val['Associated Curriculum'] + '</a></td></tr>'
+                                        }
+                                    html_element += '</table>'
+                            html_element += '</div>'
+                        
+                        $('.scwil_outer_block').append(html_element)
+                });
+
+                categoriesArr.sort();
+                $.each(categoriesArr, function(i3, val3){
+                    $('.scwil_gapcategories').append('<option value="' + val3+ '">' + val3 + '</option>')
+                    //console.log(val3)
+                })
+
+                $('.scwil_gapcategories').on('change', function(){
+                        $('.innerItem').each(function(i, val){
+                                //console.log($('.innerItem').eq(i).find('.item_category').text())
+                                if ($('.innerItem').eq(i).find('.item_category').text().indexOf($('.scwil_gapcategories option:selected').val()) > -1){
+                                    $('.innerItem').eq(i).show();
+                                } else {
+                                    $('.innerItem').eq(i).hide();
+                                }
+                        })
+                })
+
+                $('.scwil-text-search').keyup(function() {
+                        var scwilsearchstring = $(this).val();
+                        //console.log(scwilsearchstring);
+                        $('.innerItem').each(function(i, val){
+                            if ($('.innerItem').eq(i).text().toLowerCase().indexOf(scwilsearchstring.toLowerCase()) > -1){
+                                    $(this).show();
+                            } else {
+                                    $(this).hide();
+                            }
+                        })
+                })
+            }
+
+
+            $( window ).resize(function() {
+                if ($(window).width() < 601){
+                     $('.innerItem').css({
+                         'width': '100%'
+                     })   
+                } else {
+                    $('.innerItem').css({
+                         'width': '28%'
+                     }) 
+                }
+            });
+        });
+
+
+        var gapLinks = [
+            {
+                "pageTitle": "Special Confirmation",
+                "pageUrl": "gap-senate-confirmable-positions"
+            },
+            {
+                "pageTitle": "Available seats",
+                "pageUrl": "gap-available-seats"
+            },
+            {
+                "pageTitle": "How It Works",
+                "pageUrl": "gap-how-it-works"
+            },
+            {
+                "pageTitle": "About GAP",
+                "pageUrl": "gap-about"
+            }
+        ];
+
+
+
+        jQuery(gapLinks).each(function(i, val){
+              jQuery('.gap-links').prepend('<br>- <a href="/'+ val.pageUrl +'">'+ val.pageTitle +'</a>')
+          });
+          
+          jQuery('.gap-links').append('<br><br><div id="gap-sponsor-block" style="">SC Women in Leadership (SC WIL) thanks Nephron Pharmaceuticals and Aflac for their assistance in seeking the talents of our state\'s best leaders to meet our State\'s challenges.<center><a href="https://www.aflac.com" target="_blank" rel="noopener noreferrer"><img src="/wp-content/uploads/2019/10/sponsor_logo_aflac_1b-300x105.png" style="width: 30%;height: auto;max-width:200px;margin: 0 auto; opacity: .6;"></a>  <a href="https://www.nephronpharm.com/"><img src="/wp-content/uploads/2019/10/sponsor_logo_nephron.png" style="width: 30%;height: auto;max-width:300px;margin: 0 auto;" target="_blank"></a></center></div>');
+                  
+
+
+
+       
+    </script>
+  </body>
+</html>
+
