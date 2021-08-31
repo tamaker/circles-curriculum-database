@@ -47,8 +47,7 @@
         $(document).ready(function(){
             
             //fetch('./data/circles_of_women_test.json')
-            //fetch('https://cdn.jsdelivr.net/gh/tamaker/scwil-gap-database@latest/September_GAP_Sheet1.json')
-            fetch('./data/circles-curriculum-database.json')
+            fetch('https://cdn.jsdelivr.net/gh/tamaker/circles-curriculum-database@latest/circles-curriculum-database.json')
                 .then(response => response.json())
                 //.then(data => console.log(data))
                 .then(data => doLoop(data))
