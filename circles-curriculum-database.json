@@ -1,83 +1,623 @@
 [
   {
-    "Circle Name": "Dee’s Midlands Circle",
-    "Region": "Midlands",
-    "Type": "Regional",
-    "Accepting New Members": "No",
-    "Circle Leader": "Dee Bell-Williams",
-    "Meets": "4th Wednesday of the month at 6 p.m. via Zoom",
-    "Text": "We come together each month to build the skills we need on our leadership journeys."
+    "Module": "Connection Cards",
+    "Conversation Starter": "n/a",
+    "Discussion Guide": "Discussion guide",
+    "Slides": "Slides",
+    "Category": "Bonding",
+    "Associated Curriculum?": "1-2-3 Guide",
+    "Notes": "Activity only slides also available"
   },
   {
-    "Circle Name": "Carol's Midlands Circle",
-    "Region": "Midlands",
-    "Type": "Regional",
-    "Accepting New Members": "Yes",
-    "Circle Leader": "Carol Kennedy",
-    "Meets": "4th Tuesday of the month at 12 p.m. via Zoom",
-    "Text": "Together we focus on personal, professional, and political development."
+    "Module": "Centered Leadership Part 1: Meaning",
+    "Conversation Starter": "Meaning Video",
+    "Discussion Guide": "Discussion guide",
+    "Slides": "Slides",
+    "Category": "Personal Development; Mindfulness & Stress; Confidence",
+    "Associated Curriculum?": "1-2-3 Guide",
+    "Notes": ""
   },
   {
-    "Circle Name": "Heather’s Lowcountry Circle",
-    "Region": "Lowcountry",
-    "Type": "Regional",
-    "Accepting New Members": "Yes",
-    "Circle Leader": "Heather Odom",
-    "Meets": "2nd Tuesday of the month at 6 p.m. via Zoom",
-    "Text": "We support one another through life’s challenges, push ourselves to meet our goals, and expand our reach."
+    "Module": "Drop the Ball",
+    "Conversation Starter": "Drop the Ball: Doing More of What Matters",
+    "Discussion Guide": "Discussion guide",
+    "Slides": "Slides",
+    "Category": "Mindfulness & Stress; Work-Life Balance",
+    "Associated Curriculum?": "1-2-3 Guide",
+    "Notes": ""
   },
   {
-    "Circle Name": "Education and Civic Engagement Circle",
-    "Region": "Statewide",
-    "Type": "Issue",
-    "Accepting New Members": "No",
-    "Circle Leader": "Karin Sisk",
-    "Meets": "3rd Wednesday of the month at 6:30 p.m. via Zoom",
-    "Text": "A safe space to share, support, and build skills to empower women and increase equity in all areas of engagement. We're passionate about deepening personal, group, and public education.\\"
+    "Module": "Part 1: Meaning",
+    "Conversation Starter": "How Women Can Lead with Meaning Video",
+    "Discussion Guide": "Discussion guide",
+    "Slides": "",
+    "Category": "Personal Development; Mindfulness & Stress; Confidence",
+    "Associated Curriculum?": "Centered Leadership",
+    "Notes": ""
   },
   {
-    "Circle Name": "Amanda's Upstate Circle",
-    "Region": "Upstate",
-    "Type": "Regional",
-    "Accepting New Members": "No",
-    "Circle Leader": "Amanda McDougald Scott",
-    "Meets": "Monthly via Zoom",
-    "Text": "Our new Circle is still setting its direction!"
+    "Module": "Part 2: Framing",
+    "Conversation Starter": "Dealing with Challenges as a Female Leader: Frame & Overcome Them",
+    "Discussion Guide": "Discussion guide",
+    "Slides": "",
+    "Category": "Personal Development; Mindfulness & Stress; Confidence",
+    "Associated Curriculum?": "Centered Leadership",
+    "Notes": ""
   },
   {
-    "Circle Name": "Angela's Midlands Circle",
-    "Region": "Midlands",
-    "Type": "Regional",
-    "Accepting New Members": "Yes",
-    "Circle Leader": "Angela Rodriguez",
-    "Meets": "4th Monday of the month at 6 p.m. via Zoom",
-    "Text": "Our Circle's goals are to connect and network with more women, learn more about communication across lines - political, race, generation, and making a difference through community engagement."
+    "Module": "Part 3: Connecting",
+    "Conversation Starter": "How Successful Women Leaders Build Trust and Community",
+    "Discussion Guide": "Discussion guide",
+    "Slides": "",
+    "Category": "Personal Development; Mindfulness & Stress; Confidence; Work-Life Balance",
+    "Associated Curriculum?": "Centered Leadership",
+    "Notes": ""
   },
   {
-    "Circle Name": "Mentoring and Networking Circle",
-    "Region": "Statewide",
-    "Type": "Issue",
-    "Accepting New Members": "Yes",
-    "Circle Leader": "Carol Moore",
-    "Meets": "1st Thursday of the month at 5:30 p.m. via Zoom",
-    "Text": "We learn strategies for finding mentors, making the most out of your mentor relationship, building a strong professional network, and leadership development."
+    "Module": "Part 4: Engaging",
+    "Conversation Starter": "Engaging",
+    "Discussion Guide": "Discussion guide",
+    "Slides": "",
+    "Category": "Personal Development; Mindfulness & Stress; Confidence",
+    "Associated Curriculum?": "Centered Leadership",
+    "Notes": ""
   },
   {
-    "Circle Name": "What's Next Circle",
-    "Region": "Statewide",
-    "Type": "Issue",
-    "Accepting New Members": "Yes",
-    "Circle Leader": "Jessica Daly",
-    "Meets": "Monthly via Zoom",
-    "Text": "https://campaignsondemand.wufoo.com/forms/q10ymeoe02jb9uw/"
+    "Module": "Part 5: Energizing",
+    "Conversation Starter": "Find Energy for a Better Work-Life Balance",
+    "Discussion Guide": "Discussion guide",
+    "Slides": "",
+    "Category": "Personal Development; Mindfulness & Stress; Confidence; Work-Life Balance",
+    "Associated Curriculum?": "Centered Leadership",
+    "Notes": ""
   },
   {
-    "Circle Name": "SC WIL Buquilla's Pee Dee Circle",
-    "Region": "Pee Dee",
-    "Type": "Regional",
-    "Accepting New Members": "Yes",
-    "Circle Leader": "Buquilla Cannon",
-    "Meets": "Monthly via Zoom",
-    "Text": "Coming soon!"
+    "Module": "Peer Support Power Hour",
+    "Conversation Starter": "n/a",
+    "Discussion Guide": "Discussion guide",
+    "Slides": "",
+    "Category": "Personal Development; Mindfulness & Stress; Confidence; Mentorship",
+    "Associated Curriculum?": "Centered Leadership",
+    "Notes": ""
+  },
+  {
+    "Module": "It Pays to Negotiate",
+    "Conversation Starter": "Why Negotiating is Crucial for Women",
+    "Discussion Guide": "Discussion guide",
+    "Slides": "",
+    "Category": "Negotiation; Bias",
+    "Associated Curriculum?": "Negotiation Advice for Women",
+    "Notes": ""
+  },
+  {
+    "Module": "Make the First Offer",
+    "Conversation Starter": "Negotiation Advice for Women",
+    "Discussion Guide": "Discussion guide",
+    "Slides": "",
+    "Category": "Negotiation; Bias",
+    "Associated Curriculum?": "Negotiation Advice for Women",
+    "Notes": ""
+  },
+  {
+    "Module": "Using Positive Emotions",
+    "Conversation Starter": "Use Positive Emotions to Get a \"Yes\"",
+    "Discussion Guide": "Discussion guide",
+    "Slides": "",
+    "Category": "Negotiation; Bias",
+    "Associated Curriculum?": "Negotiation Advice for Women",
+    "Notes": ""
+  },
+  {
+    "Module": "Thinking Communally",
+    "Conversation Starter": "Win by Working Together",
+    "Discussion Guide": "Discussion guide",
+    "Slides": "",
+    "Category": "Negotiation; Bias",
+    "Associated Curriculum?": "Negotiation Advice for Women",
+    "Notes": ""
+  },
+  {
+    "Module": "Introduction to Surefire Strategies for Overcoming Speaking Anxiety",
+    "Conversation Starter": "How to Tame Your Fear of Public Speaking",
+    "Discussion Guide": "Discussion guide",
+    "Slides": "",
+    "Category": "Public Speaking",
+    "Associated Curriculum?": "Taming Adrenaline",
+    "Notes": ""
+  },
+  {
+    "Module": "On-the-Spot-Remedies",
+    "Conversation Starter": "4 Instant Solutions to Calm Speaking Anxiety",
+    "Discussion Guide": "Discussion guide",
+    "Slides": "",
+    "Category": "Public Speaking",
+    "Associated Curriculum?": "Taming Adrenaline",
+    "Notes": ""
+  },
+  {
+    "Module": "Avoiding the \"Tells of Nervousness\"",
+    "Conversation Starter": "Learn the Signs of Anxiety and How to Stop Them",
+    "Discussion Guide": "Discussion guide",
+    "Slides": "",
+    "Category": "Public Speaking",
+    "Associated Curriculum?": "Taming Adrenaline",
+    "Notes": ""
+  },
+  {
+    "Module": "Long-Term Strategies",
+    "Conversation Starter": "3 Powerful Ways to Perform Under Pressure",
+    "Discussion Guide": "Discussion guide",
+    "Slides": "",
+    "Category": "Public Speaking",
+    "Associated Curriculum?": "Taming Adrenaline",
+    "Notes": ""
+  },
+  {
+    "Module": "Part 1: Prove it Again",
+    "Conversation Starter": "Why Women Have to Try Twice As Hard At Work",
+    "Discussion Guide": "Discussion guide",
+    "Slides": "",
+    "Category": "Bias; Equality & Underrepresentation; Power & Influence; Women in the Workplace",
+    "Associated Curriculum?": "What Works for Women at Work",
+    "Notes": ""
+  },
+  {
+    "Module": "Part 2: The Tightrope",
+    "Conversation Starter": "Why Women Have to Fight to Be Respected and Liked at Work",
+    "Discussion Guide": "Discussion guide",
+    "Slides": "",
+    "Category": "Bias; Equality & Underrepresentation; Power & Influence; Women in the Workplace",
+    "Associated Curriculum?": "What Works for Women at Work",
+    "Notes": ""
+  },
+  {
+    "Module": "Part 3: Maternal Wall",
+    "Conversation Starter": "How to Deal With Bias Against Working Moms",
+    "Discussion Guide": "Discussion guide",
+    "Slides": "",
+    "Category": "Bias; Equality & Underrepresentation; Power & Influence; Women in the Workplace",
+    "Associated Curriculum?": "What Works for Women at Work",
+    "Notes": ""
+  },
+  {
+    "Module": "Part 4: Tug of War",
+    "Conversation Starter": "Why Gender Bias Can Cause Conflict Between Women at Work",
+    "Discussion Guide": "Discussion guide",
+    "Slides": "",
+    "Category": "Bias; Equality & Underrepresentation; Power & Influence; Women in the Workplace",
+    "Associated Curriculum?": "What Works for Women at Work",
+    "Notes": ""
+  },
+  {
+    "Module": "Planning for Equal Partnership",
+    "Conversation Starter": "How to Plan for Equal Partnership as a Woman video",
+    "Discussion Guide": "Discussion guide",
+    "Slides": "",
+    "Category": "Work-Life Balance",
+    "Associated Curriculum?": "Work & Family: Getting to 50/50",
+    "Notes": ""
+  },
+  {
+    "Module": "Planning for Work/Life Balance",
+    "Conversation Starter": "The Best Way to Plan for Work-Life Balance video",
+    "Discussion Guide": "Discussion guide",
+    "Slides": "",
+    "Category": "Work-Life Balance",
+    "Associated Curriculum?": "Work & Family: Getting to 50/50",
+    "Notes": ""
+  },
+  {
+    "Module": "The Economics of Well-Being",
+    "Conversation Starter": "How to Optimize Family and Career Decisions video",
+    "Discussion Guide": "Discussion guide",
+    "Slides": "",
+    "Category": "Work-Life Balance",
+    "Associated Curriculum?": "Work & Family: Getting to 50/50",
+    "Notes": ""
+  },
+  {
+    "Module": "How to Make Stress Your Friend",
+    "Conversation Starter": "How to Make Stress Your Friend video",
+    "Discussion Guide": "Discussion guide",
+    "Slides": "",
+    "Category": "Mindfulness & Stress",
+    "Associated Curriculum?": "n/a",
+    "Notes": ""
+  },
+  {
+    "Module": "Settle Down, Pay Attention, Say Thank You: A How-To",
+    "Conversation Starter": "Settle Down, Pay Attention, Say Thank You: A How-To video",
+    "Discussion Guide": "Discussion guide",
+    "Slides": "",
+    "Category": "Work-Life Balance; Mindfulness & Stress",
+    "Associated Curriculum?": "n/a",
+    "Notes": ""
+  },
+  {
+    "Module": "How Movies Teach Manhood",
+    "Conversation Starter": "How Movies Teach Manhood video",
+    "Discussion Guide": "Discussion guide",
+    "Slides": "",
+    "Category": "Equality & Underepresentation; Media",
+    "Associated Curriculum?": "n/a",
+    "Notes": ""
+  },
+  {
+    "Module": "Why We Have Too Few Women Leaders",
+    "Conversation Starter": "Why We Have Too Few Women Leaders video",
+    "Discussion Guide": "Discussion guide",
+    "Slides": "",
+    "Category": "Equality & Underepresentation; Power & Influence",
+    "Associated Curriculum?": "n/a",
+    "Notes": ""
+  },
+  {
+    "Module": "We Should All Be Feminists",
+    "Conversation Starter": "We Should All Be Feminists video",
+    "Discussion Guide": "Discussion guide",
+    "Slides": "",
+    "Category": "Equality & Underepresentation",
+    "Associated Curriculum?": "n/a",
+    "Notes": ""
+  },
+  {
+    "Module": "What It Takes to Be a Great Leader",
+    "Conversation Starter": "What It Takes to Be a Great Leader video",
+    "Discussion Guide": "Discussion guide",
+    "Slides": "",
+    "Category": "Power & Influence",
+    "Associated Curriculum?": "n/a",
+    "Notes": ""
+  },
+  {
+    "Module": "Meet the Women Fighting on the Front Lines of an American War",
+    "Conversation Starter": "Women on the Front Lines of an American War video",
+    "Discussion Guide": "Discussion guide",
+    "Slides": "",
+    "Category": "Personal Development; Military",
+    "Associated Curriculum?": "n/a",
+    "Notes": ""
+  },
+  {
+    "Module": "Why Gender Equality is Good for Everyone–Men Included",
+    "Conversation Starter": "Why Gender Equality is Good for Everyone-Men Included",
+    "Discussion Guide": "Discussion guide",
+    "Slides": "",
+    "Category": "Bias; Underrepresentation & Equality; Work-Life Balance",
+    "Associated Curriculum?": "n/a",
+    "Notes": ""
+  },
+  {
+    "Module": "What Does My Headscarf Mean to You",
+    "Conversation Starter": "What Does My Headscarf Mean to You?",
+    "Discussion Guide": "Discussion guide",
+    "Slides": "",
+    "Category": "Bias; Underrepresentation & Equality",
+    "Associated Curriculum?": "n/a",
+    "Notes": ""
+  },
+  {
+    "Module": "Why Moms Make the Best Entrepreneurs",
+    "Conversation Starter": "Why Moms Make the Best Entrepreneurs",
+    "Discussion Guide": "Discussion guide",
+    "Slides": "",
+    "Category": "Women in the Workplace; Work-Life Balance; Ideas & Creativity",
+    "Associated Curriculum?": "n/a",
+    "Notes": ""
+  },
+  {
+    "Module": "How to Get Back to Work After a Career Break",
+    "Conversation Starter": "How to Get Back to Work After a Career Break",
+    "Discussion Guide": "Discussion guide",
+    "Slides": "",
+    "Category": "Women in the Workplace; Work-Life Balance; Return to Work",
+    "Associated Curriculum?": "n/a",
+    "Notes": ""
+  },
+  {
+    "Module": "Power Posing: Change Your Body to Change Your Mind",
+    "Conversation Starter": "Your Body Language Shapes Who You Are video",
+    "Discussion Guide": "Discussion guide",
+    "Slides": "",
+    "Category": "Body Language; Power & Influence",
+    "Associated Curriculum?": "n/a",
+    "Notes": ""
+  },
+  {
+    "Module": "How to Win Over Mission-Critical Colleagues",
+    "Conversation Starter": "Kelly's Story",
+    "Discussion Guide": "Discussion guide",
+    "Slides": "",
+    "Category": "Communication; Women in the Workplace",
+    "Associated Curriculum?": "n/a",
+    "Notes": ""
+  },
+  {
+    "Module": "Setting Your Goals",
+    "Conversation Starter": "How to Gain Control of Your Free Time",
+    "Discussion Guide": "Discussion guide",
+    "Slides": "",
+    "Category": "Work-Life Balance; Personal Development",
+    "Associated Curriculum?": "n/a",
+    "Notes": ""
+  },
+  {
+    "Module": "The Surprising Habits of Original Thinkers",
+    "Conversation Starter": "Surprising Habits of Original Thinkers video",
+    "Discussion Guide": "Discussion guide",
+    "Slides": "",
+    "Category": "Ideas & Creativity; Personal Development",
+    "Associated Curriculum?": "n/a",
+    "Notes": ""
+  },
+  {
+    "Module": "How to Own the Room",
+    "Conversation Starter": "How to Own the Room video",
+    "Discussion Guide": "Discussion guide",
+    "Slides": "",
+    "Category": "Public Speaking",
+    "Associated Curriculum?": "n/a",
+    "Notes": ""
+  },
+  {
+    "Module": "After #MeToo—How men and women can work together for change",
+    "Conversation Starter": "After #MeToo—How men and women can work together for change video",
+    "Discussion Guide": "Discussion guide",
+    "Slides": "",
+    "Category": "Bias; Women in the Workplace",
+    "Associated Curriculum?": "n/a",
+    "Notes": ""
+  },
+  {
+    "Module": "Authentic Leadership",
+    "Conversation Starter": "How to be an Authentic Leader and Bring Your Whole Self to Work video",
+    "Discussion Guide": "Discussion guide",
+    "Slides": "",
+    "Category": "Bias; Women in the Workplace; Personal Development",
+    "Associated Curriculum?": "n/a",
+    "Notes": ""
+  },
+  {
+    "Module": "Acceptance and Healing",
+    "Conversation Starter": "Acceptance and Healing video",
+    "Discussion Guide": "Discussion guide",
+    "Slides": "",
+    "Category": "Personal Development; Women in the Workplace",
+    "Associated Curriculum?": "n/a",
+    "Notes": ""
+  },
+  {
+    "Module": "Compassionate Leadership",
+    "Conversation Starter": "Compassionate Leadership",
+    "Discussion Guide": "Discussion guide",
+    "Slides": "",
+    "Category": "Personal Development; Women in the Workplace",
+    "Associated Curriculum?": "n/a",
+    "Notes": ""
+  },
+  {
+    "Module": "Negotiation",
+    "Conversation Starter": "Practice Makes Perfect: Negotiate Now to Achieve More When It Matters video",
+    "Discussion Guide": "Discussion guide",
+    "Slides": "",
+    "Category": "Negotiation",
+    "Associated Curriculum?": "n/a",
+    "Notes": ""
+  },
+  {
+    "Module": "Team Dynamics",
+    "Conversation Starter": "How to Be a More Effective Team Member or Leader video",
+    "Discussion Guide": "Discussion guide",
+    "Slides": "",
+    "Category": "Personal Development; Women in the Workplace",
+    "Associated Curriculum?": "n/a",
+    "Notes": ""
+  },
+  {
+    "Module": "Difficult Conversations",
+    "Conversation Starter": "How to Have Difficult Conversations and Stay True to Yourself",
+    "Discussion Guide": "Discussion guide",
+    "Slides": "",
+    "Category": "Communication; Personal Development; Women in the Workplace",
+    "Associated Curriculum?": "n/a",
+    "Notes": ""
+  },
+  {
+    "Module": "Claiming Your Strengths",
+    "Conversation Starter": "Know Your Strengths, Own Your Strengths video",
+    "Discussion Guide": "Discussion guide",
+    "Slides": "",
+    "Category": "Personal Development",
+    "Associated Curriculum?": "n/a",
+    "Notes": ""
+  },
+  {
+    "Module": "Allow Yourself to Be Brilliant",
+    "Conversation Starter": "Allow Yourself to Be Brilliant – Advice for Women video",
+    "Discussion Guide": "Discussion guide",
+    "Slides": "",
+    "Category": "Personal Development",
+    "Associated Curriculum?": "n/a",
+    "Notes": ""
+  },
+  {
+    "Module": "Focusing on Feedback",
+    "Conversation Starter": "Focusing on Feedback video",
+    "Discussion Guide": "Discussion guide",
+    "Slides": "",
+    "Category": "Communication; Personal Development; Women in the Workplace",
+    "Associated Curriculum?": "n/a",
+    "Notes": ""
+  },
+  {
+    "Module": "Create a Level Playing Field",
+    "Conversation Starter": "Creating a Level Playing Field video",
+    "Discussion Guide": "Discussion guide",
+    "Slides": "",
+    "Category": "Bias",
+    "Associated Curriculum?": "n/a",
+    "Notes": ""
+  },
+  {
+    "Module": "Building Effective Networks",
+    "Conversation Starter": "Why All Women Need a Professional Network Video",
+    "Discussion Guide": "Discussion guide",
+    "Slides": "",
+    "Category": "Women in the Workplace; Mentorship",
+    "Associated Curriculum?": "n/a",
+    "Notes": ""
+  },
+  {
+    "Module": "Communicating with Confidence",
+    "Conversation Starter": "Fake It ’Til You Make It: How to Communicate with Confidence video",
+    "Discussion Guide": "Discussion guide",
+    "Slides": "",
+    "Category": "Confidence; Communication; Women in the Workplace",
+    "Associated Curriculum?": "n/a",
+    "Notes": ""
+  },
+  {
+    "Module": "Rethinking Time: The Power of Multipliers",
+    "Conversation Starter": "How to Do Twice as Much With Your Time video",
+    "Discussion Guide": "Discussion guide",
+    "Slides": "",
+    "Category": "Work-Life Balance",
+    "Associated Curriculum?": "n/a",
+    "Notes": ""
+  },
+  {
+    "Module": "Harnessing the Power of Stories",
+    "Conversation Starter": "How to Use Stories to Win Over Others video",
+    "Discussion Guide": "Discussion guide",
+    "Slides": "",
+    "Category": "Communication",
+    "Associated Curriculum?": "n/a",
+    "Notes": ""
+  },
+  {
+    "Module": "Power & Influence",
+    "Conversation Starter": "How to Use Body Language for Power and Influence",
+    "Discussion Guide": "Discussion guide",
+    "Slides": "",
+    "Category": "Body Language; Power & Influence",
+    "Associated Curriculum?": "n/a",
+    "Notes": ""
+  },
+  {
+    "Module": "How to Manage Your Inner Critic",
+    "Conversation Starter": "3 Effective Ways to Manage Your Inner Critic",
+    "Discussion Guide": "Discussion guide",
+    "Slides": "",
+    "Category": "Confidence; Mindfulness & Stress; Personal Development",
+    "Associated Curriculum?": "n/a",
+    "Notes": ""
+  },
+  {
+    "Module": "The Power of Introverts",
+    "Conversation Starter": "The Power of Introverts video",
+    "Discussion Guide": "Discussion guide",
+    "Slides": "",
+    "Category": "Personal Development",
+    "Associated Curriculum?": "n/a",
+    "Notes": ""
+  },
+  {
+    "Module": "My Year of Saying Yes to Everything",
+    "Conversation Starter": "My Year of Saying Yes to Everything video",
+    "Discussion Guide": "Discussion guide",
+    "Slides": "",
+    "Category": "Work-Life Balance; Personal Development",
+    "Associated Curriculum?": "n/a",
+    "Notes": ""
+  },
+  {
+    "Module": "The Power of Us: How We Stop Sexual Harassment",
+    "Conversation Starter": "The Power of Us: How We Stop Sexual Harassment",
+    "Discussion Guide": "Discussion guide",
+    "Slides": "",
+    "Category": "Women in the Workplace; Sexual Harassment",
+    "Associated Curriculum?": "n/a",
+    "Notes": ""
+  },
+  {
+    "Module": "How to advocate for yourself at work and at home during COVID-19",
+    "Conversation Starter": "5 Choices",
+    "Discussion Guide": "Discussion guide",
+    "Slides": "",
+    "Category": "Women in the Workplace; Work-Life Balance; WFH",
+    "Associated Curriculum?": "How to Navigate Your New Normal",
+    "Notes": ""
+  },
+  {
+    "Module": "How to be a good coworker and leader during this crisis",
+    "Conversation Starter": "5 Choices",
+    "Discussion Guide": "Discussion guide",
+    "Slides": "",
+    "Category": "Women in the Workplace; Communication; WFH",
+    "Associated Curriculum?": "How to Navigate Your New Normal",
+    "Notes": ""
+  },
+  {
+    "Module": "Staying connected to your community while physical distancing",
+    "Conversation Starter": "3 Choices",
+    "Discussion Guide": "Discussion guide",
+    "Slides": "",
+    "Category": "Work-Life Balance; WFH",
+    "Associated Curriculum?": "How to Navigate Your New Normal",
+    "Notes": ""
+  },
+  {
+    "Module": "Juggling work and home life during the pandemic",
+    "Conversation Starter": "6 Choices",
+    "Discussion Guide": "Discussion guide",
+    "Slides": "",
+    "Category": "Work-Life Balance; WFH",
+    "Associated Curriculum?": "How to Navigate Your New Normal",
+    "Notes": ""
+  },
+  {
+    "Module": "Reframing personal and professional success during COVID-19",
+    "Conversation Starter": "5 Choices",
+    "Discussion Guide": "Discussion guide",
+    "Slides": "",
+    "Category": "Mindfulness & Stress; Work-Life Balance; WFH",
+    "Associated Curriculum?": "How to Navigate Your New Normal",
+    "Notes": ""
+  },
+  {
+    "Module": "Managing stress and anxiety in an uncertain world",
+    "Conversation Starter": "6 Choices",
+    "Discussion Guide": "Discussion guide",
+    "Slides": "",
+    "Category": "Mindfulness & Stress; Work-Life Balance; WFH",
+    "Associated Curriculum?": "How to Navigate Your New Normal",
+    "Notes": ""
+  },
+  {
+    "Module": "Finding opportunities for self-care during COVID-19",
+    "Conversation Starter": "4 Choices",
+    "Discussion Guide": "Discussion guide",
+    "Slides": "",
+    "Category": "Mindfulness & Stress; Work-Life Balance; WFH",
+    "Associated Curriculum?": "How to Navigate Your New Normal",
+    "Notes": ""
+  },
+  {
+    "Module": "Supporting others through the pandemic",
+    "Conversation Starter": "12 Choices",
+    "Discussion Guide": "Discussion guide",
+    "Slides": "",
+    "Category": "Mindfulness & Stress; Work-Life Balance; WFH",
+    "Associated Curriculum?": "How to Navigate Your New Normal",
+    "Notes": ""
+  },
+  {
+    "Module": "How to cope with job loss during the pandemic",
+    "Conversation Starter": "10 Choices",
+    "Discussion Guide": "Discussion guide",
+    "Slides": "",
+    "Category": "Mindfulness & Stress; Work-Life Balance; WFH",
+    "Associated Curriculum?": "How to Navigate Your New Normal",
+    "Notes": ""
   }
 ]
